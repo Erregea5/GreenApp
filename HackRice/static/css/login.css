@@ -1,0 +1,25 @@
+.log-in { background-color: #ffffff; display: flex; flex-direction: row; justify-content: center; width: 100%; }
+
+.log-in .div { background-color: #ffffff; width: 1440px; height: 900px; position: relative; }
+
+.log-in .log-in-here { position: absolute; top: 246px; left: 903px; font-family: "DM Serif Display-Regular", Helvetica; font-weight: 400; color: #000000; font-size: 36.3px; text-align: center; letter-spacing: 0; line-height: normal; }
+
+.log-in .text-wrapper { position: absolute; top: 332px; left: 807px; font-family: "Outfit-SemiBold", Helvetica; font-weight: 600; color: #000000; font-size: 18.1px; letter-spacing: 0; line-height: normal; }
+
+.log-in .text-wrapper-2 { position: absolute; width: 84px; top: 451px; left: 807px; font-family: "Outfit-SemiBold", Helvetica; font-weight: 600; color: #000000; font-size: 18.1px; letter-spacing: 0; line-height: normal; white-space: nowrap; }
+
+.log-in .rectangle { top: 365px; position: absolute; width: 429px; height: 55px; left: 806px; font-size: x-large;}
+
+.log-in .img { top: 484px; position: absolute; width: 429px; height: 55px; left: 806px; font-size: x-large;}
+
+.log-in .log-in-button { position: relative; width: 108px; font-family: "DM Serif Display-Regular", Helvetica; font-weight: 400; background-color: rgb(137, 194, 235); color: #ffffff; font-size: 22px; text-align: center; top:600px; left:970px; letter-spacing: 0; line-height: normal; }
+
+.log-in .text-wrapper-3 { position: relative; width: 108px; font-family: "DM Serif Display-Regular", Helvetica; font-weight: 400; background-color: rgb(137, 194, 235); color: #ffffff; font-size: 22px; text-align: center; top:50px; left:1300px; letter-spacing: 0; line-height: normal; }
+
+.log-in .logo { display: flex; width: 285px; height: 78px; align-items: flex-start; gap: 7.61px; position: absolute; top: 68px; left: 89px; }
+
+.log-in .icon { position: relative; width: 57.07px; height: 57.07px; }
+
+.log-in .aeon { position: relative; width: fit-content; margin-top: -1.9px; font-family: "Outfit-Medium", Helvetica; font-weight: 500; color: var(--primary); font-size: 38px; letter-spacing: 0.38px; line-height: normal; }
+
+.log-in .woman-planting-tree { position: absolute; width: 548px; height: 450px; top: 254px; left: 89px; object-fit: cover; }

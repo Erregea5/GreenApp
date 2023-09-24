@@ -1,0 +1,222 @@
+
+.sign-up {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+ }
+ 
+ 
+ .sign-up .div {
+    background-color: #ffffff;
+    width: 1247px;
+    height: 819px;
+    position: relative;
+ }
+ 
+ 
+ .sign-up .ready-to-make-an {
+    position: absolute;
+    width: 843px;
+    height: 62px;
+    top: 156px;
+    left: 204px;
+ }
+ 
+ 
+ .sign-up .logo {
+    display: flex;
+    width: 285px;
+    height: 78px;
+    align-items: flex-start;
+    gap: 7.61px;
+    position: absolute;
+    top: 56px;
+    left: 481px;
+ }
+ 
+ 
+ .sign-up .icon {
+    position: relative;
+    width: 57.07px;
+    height: 57.07px;
+ }
+ 
+ 
+ .sign-up .aeon {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.9px;
+    font-family: "Outfit-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--primary);
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0.38px;
+    line-height: normal;
+ 
+ }
+ 
+ 
+ .sign-up .form-element {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: absolute;
+    top: 261px;
+    left: 347px;
+    background-color: var(--figma-file-template-white);
+    overflow: hidden;
+ 
+ }
+ 
+ 
+ .sign-up .label {
+    position: relative;
+    width: 544px;
+    margin-top: -4.5px;
+    font-family: "Outfit-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--figma-file-template-dark-text);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+ 
+ }
+ 
+ 
+ .sign-up .input {
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #efefef;
+    border-radius: 4px;
+ 
+ }
+ 
+ 
+ .sign-up .form-element-2 {
+    top: 513px;
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: absolute;
+    left: 347px;
+    background-color: var(--figma-file-template-white);
+    overflow: hidden;
+ 
+ }
+ 
+ 
+ .sign-up .p {
+    position: relative;
+    width: 544px;
+    margin-top: -4.5px;
+    font-family: "Outfit-SemiBold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+ 
+ }
+ 
+ 
+ .sign-up .text-wrapper {
+    font-weight: 600;
+    color: #333333;
+ 
+ }
+ 
+ 
+ .sign-up .span {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #333333;
+ 
+ }
+ 
+ 
+ .sign-up .text-wrapper-2 {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #808080;
+    font-size: 10px;
+    line-height: 14px;
+ 
+ }
+ 
+ 
+ .sign-up .form-element-3 {
+    top: 335px;
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: absolute;
+    left: 347px;
+    background-color: var(--figma-file-template-white);
+    overflow: hidden;
+ 
+ }
+ 
+ 
+ .sign-up .form-element-4 {
+    top: 424px;
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    position: absolute;
+    left: 347px;
+    background-color: var(--figma-file-template-white);
+    overflow: hidden;
+ 
+ }
+ 
+ 
+ .sign-up .log-in-button {
+    display: flex;
+    width: 429px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    gap: 9.07px;
+    padding: 9.07px;
+    position: absolute;
+    top: 639px;
+    left: 410px;
+    background-color: #3671ff;
+    border-radius: 2.72px;
+    color: #ffffff;
+    font-size: x-large;
+ }
+ 
+ 
+ .sign-up .text-wrapper-3 {
+    position: relative;
+    width: 165px;
+    font-family: "DM Serif Display-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+ 
+ }
+ 

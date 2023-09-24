@@ -1,0 +1,10 @@
+Figure out prompt
+
+Choose our technology
+
+Design project structure
+
+Split up work and modularize
+
+Work from ground up 
+

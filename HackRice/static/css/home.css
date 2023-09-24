@@ -1,0 +1,411 @@
+.food {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .food .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 900px;
+    position: relative;
+  } 
+  
+  .food .overlap {
+    position: absolute;
+    width: 459px;
+    height: 780px;
+    top: 60px;
+    left: 51px;
+  }
+  
+  .food .overlap-group {
+    position: absolute;
+    width: 459px;
+    height: 760px;
+    top: 20px;
+    left: 0;
+  }
+  
+  .food .divider {
+    position: absolute;
+    width: 1px;
+    height: 760px;
+    top: 0;
+    left: 417px;
+    object-fit: cover;
+  }
+  
+  .food .input-your-info-to {
+    position: absolute;
+    width: 459px;
+    top: 39px;
+    left: 0;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 31.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .food .logo {
+    display: flex;
+    width: 87px;
+    height: 30px;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  
+  .food .icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .food .aeon {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-right: -39px;
+    font-family: "Outfit", Helvetica;
+    font-weight: 500;
+    color: var(--primary);
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: normal;
+  }
+  
+  .food .frame {
+    flex-direction: column;
+    width: 304px;
+    height: 56px;
+    align-items: flex-start;
+    top: 669px;
+    left: 26px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+  }
+  
+  .food .log-in-button {
+    display: flex;
+    width: 284px;
+    height: 36.44px;
+    align-items: center;
+    justify-content: center;
+    gap: 6.01px;
+    padding: 6.01px;
+    position: relative;
+    background-color: #3671ff;
+    color: #000000;
+    border-radius: 20px;
+  }
+  
+  .food .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.89px;
+    margin-bottom: -0.69px;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #140707;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .food .div-wrapper {
+    width: 199px;
+    height: 56px;
+    align-items: center;
+    top: 190px;
+    left: 63px;
+    background-color: #3671ff;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+  }
+  
+  .food .text-wrapper-2 {
+    width: 179px;
+    height: 36px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Outfit", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  
+  .food .rectangle {
+    position: absolute;
+    width: 126px;
+    height: 34px;
+    top: 276px;
+    left: 100px;
+    object-fit: cover;
+  }
+  
+  .rectangle-1 {
+    position: absolute;
+    width: 126px;
+    height: 34px;
+    top: 580px;
+    left: 100px;
+    object-fit: cover;
+  }
+  
+  .food .frame-2 {
+    width: 199px;
+    height: 56px;
+    align-items: center;
+    top: 340px;
+    left: 63px;
+    background-color: #3671ff;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+  }
+  
+  .food .img {
+    position: absolute;
+    width: 126px;
+    height: 34px;
+    top: 426px;
+    left: 97px;
+    object-fit: cover;
+  }
+  
+  .food .miles-on-public-wrapper {
+    width: 302px;
+    height: 60px;
+    align-items: center;
+    top: 490px;
+    left: 16px;
+    background-color: #3671ff;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+  }
+  
+  .food .miles-on-public {
+    width: 282px;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Outfit", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  
+  .food .rectangle-2 {
+    position: absolute;
+    width: 126px;
+    height: 34px;
+    top: 580px;
+    left: 105px;
+    object-fit: cover;
+  }
+  
+  .food .welcome-back-youssef {
+    position: absolute;
+    font-size: xx-large;
+    width: 576px;
+    height: 30px;
+    top: 71px;
+    left: 527px;
+    object-fit: cover;
+  }
+  
+  .food .here-are-popular {
+    position: absolute;
+    width: 457px;
+    height: 21px;
+    top: 418px;
+    left: 564px;
+    object-fit: cover;
+  }
+  
+  .food .text-wrapper-3 {
+    position: absolute;
+    top: 157px;
+    left: 676px;
+    font-family: "Outfit", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 12.3px;
+    letter-spacing: 0;
+    line-height: normal;
+    font-size: x-large;
+  }
+  
+  .food .text-wrapper-4 {
+    position: absolute;
+    width: 57px;
+    top: 231px;
+    left: 677px;
+    font-family: "Outfit", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 12.3px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    font-size: x-large;
+  }
+  
+  .food .rectangle-3 {
+    position: absolute;
+    width: 509px;
+    height: 37px;
+    top: 182px;
+    left: 677px;
+    font-size: x-large;
+  }
+  
+  .food .rectangle-4 {
+    position: absolute;
+    width: 510px;
+    height: 113px;
+    top: 257px;
+    left: 676px;
+    font-size: x-large;
+  }
+  
+  .food .button {
+    display: flex;
+    width: 118px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 6.67px;
+    padding: 6.67px;
+    position: absolute;
+    top: 329px;
+    left: 1205px;
+    background-color: #3671ff;
+    border-radius: 2px;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .food .text-wrapper-5 {
+    position: relative;
+    width: 79.38px;
+    top: 349px;
+    left: 1205px;
+    font-family: "DM Serif Display", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #3671ff;
+    font-size: 16.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .food .overlap-2 {
+    position: absolute;
+    width: 343px;
+    height: 260px;
+    top: 497px;
+    left: 594px;
+  }
+  
+  .food .rectangle-5 {
+    position: absolute;
+    width: 337px;
+    height: 260px;
+    top: 0;
+    left: 0;
+  }
+  
+  .food .text-wrapper-6 {
+    position: absolute;
+    width: 333px;
+    top: 4px;
+    left: 10px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .food .text-wrapper-7 {
+    position: absolute;
+    width: 310px;
+    top: 46px;
+    left: 10px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .food .p {
+    position: absolute;
+    width: 294px;
+    top: 176px;
+    left: 14px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .food .span {
+    font-weight: 300;
+  }
+  
+  .food .text-wrapper-8 {
+    font-weight: 700;
+  }
+  
+  .food .overlap-group-2 {
+    position: absolute;
+    width: 347px;
+    height: 260px;
+    top: 497px;
+    left: 986px;
+  }
+  
+  .food .text-wrapper-9 {
+    position: absolute;
+    width: 333px;
+    top: 7px;
+    left: 14px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

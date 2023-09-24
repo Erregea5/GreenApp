@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/home.css')}}" />
+{% endblock %}
+
+
+{% block body %}
+
+   
+<div class="food">
+    <div class="div">
+      <div class="overlap">
+        <div class="overlap-group">
+          <img class="divider" src="static/images/divider.svg" />
+          <p class="input-your-info-to">Input Your Info To Calculate Emissions 👇:</p>
+        </div>
+        <div class="logo">
+          <img class="icon" src="static/images/icon-1.svg" />
+          <div class="aeon">Greenapp</div>
+        </div>
+        <form action="/home" method="POST">
+          <div class="div-wrapper"><label for="driven" class="text-wrapper-2">Miles Driven</label></div>
+          <input class="rectangle" name="driven">
+          <div class="frame-2"><label for="walk" class="text-wrapper-2">Miles Walked</label></div>
+          <input class="img" name="walk">
+          <div class="miles-on-public-wrapper"><label for="public" class="miles-on-public">Miles On Public Transportation</label></div>
+          <input class="rectangle-1" name="public">
+
+          <input type="hidden" name="username" value="{{username}}">
+          <input type="hidden" name="password" value="{{password}}">
+          <input type="hidden" name="type" value="stats">
+          <div class="frame log-in-button">
+            <input type="submit" class="text-wrapper" value="Submit and Show Stats">
+          </div>
+        </form>
+      </div>
+      
+        
+        
+      <h1 class="welcome-back-youssef">    Welcome Back {{username}}!</h1>
+
+
+      <form action="/home" method="POST">
+        <label for="conversation" class="text-wrapper-3">Title</label>
+        <label for="message" class="text-wrapper-4">Post</label>
+        <input class="rectangle-3" name="conversation" />
+        <input class="rectangle-4" name="message" />
+        <input type="hidden" name="username" value="{{username}}">
+        <input type="hidden" name="password" value="{{password}}">
+        <input type="hidden" name="type" value="posts">
+        <input type="submit" class="text-wrapper-5" value="Submit">
+      </form>
+
+
+      <div class="overlap-2">
+        <img class="rectangle-5" src="static/images/rectangle-58.svg" />
+        <div class="text-wrapper-6">usr:/sebas</div>
+        <p class="text-wrapper-7">Who is looking to carpool to college?</p>
+        <p class="p">
+          <span class="span">user/Kostya: </span> <span class="text-wrapper-8">I can go on weekdays!</span>
+        </p>
+      </div>
+      <div class="overlap-group-2">
+        <img class="rectangle-5" src="static/images/rectangle-58.svg" />
+        <div class="text-wrapper-7">Any environment-friendly restaurants?</div>
+        <p class="p">
+          <span class="span">user/Sebas: </span> <span class="text-wrapper-8">I know one by Main.St!</span>
+        </p>
+        <div class="text-wrapper-9">user/little</div>
+      </div>
+      
+    </div>
+  </div>
+    {% for convo in community_conversations %}
+        <tr>
+            <a href="/thread?username={{username}}&password={{password}}&conversation={{convo[0].name}}">respond</a>
+            <td>{{convo[0].name}}</td>
+            <td>{{convo[1].text}}</td>    
+            <td>{{convo[0].date_started}}</td>
+        </tr>
+    {% endfor %}
+
+
+{% endblock %}
+

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/stats.css')}}" />
+{% endblock %}
+
+{% block body %}
+    <div class="food">
+      <div class="div">
+        <div class="logo">
+          <img class="icon" src="static/images/icon.svg" />
+          <div class="aeon">Greenapp</div>
+        </div>
+        <div class="header-and-subheader">
+          <header class="header">
+            <div class="div-2"></div>
+            <div class="elements"><div class="div-2"></div></div>
+          </header>
+        </div>
+        <div class="stats">
+          <p class="here-is-your-stats">Here Are Your Stats So Far 🍃 :</p>
+        </div>
+        <img class="divider" src="static/images/divider.png" />
+        <p class="AI-recommendations">
+          <span class="text-wrapper">✨</span> <span class="span"> AI Recommendations:   {{recommendations}}</span>
+        </p>
+        <div class="group">
+          <div class="overlap-group">
+            <img class="circle-carret-left" src="static/images/circle-carret-left-1.svg" />
+            <div class="text-wrapper-2">Home Page</div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

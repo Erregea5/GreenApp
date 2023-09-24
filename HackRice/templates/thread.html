@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/thread.css')}}" />
+{% endblock %}
+
+
+{% block body %}
+<div class="food">
+    <div class="div">
+      <div class="logo"> 
+        <img class="icon" src="static/images/icon.svg" />
+        <div class="aeon">Greenapp</div>
+      </div>
+      <div class="header-and-subheader">
+        <header class="header">
+          <div class="div-2"></div>
+          <div class="elements"><div class="div-2"></div></div>
+        </header>
+      </div>
+      <div class="overlap-group" href="{{url_for('home',username=username,password=password)}}">
+        <img class="circle-carret-left" src="static/images/circle-carret-left-1.svg" />
+        <div class="text-wrapper">Home Page</div>
+      </div>
+
+      <form action="/thread" method="POST">
+        <input class="input" name="message">
+        
+        <input type="hidden" name="username" value="{{username}}">
+        <input type="hidden" name="password" value="{{password}}">
+        <input type="hidden" name="conversation" value="{{conversation}}">
+        <input type="submit" class=" text-wrapper-2" value="Submit">
+      </form>
+
+      
+      {% for i in range(n) %}
+        <p class="post" style="top:{{271+i*50}};">
+            <span class="span"> User/{{chats[i].speaker_name}}:</span> <span class="text-wrapper-3">&nbsp;&nbsp; {{chats[i].text}}</span>
+        </p>
+        {% endfor %}
+
+      
+      <div class="overlap">
+
+        <p class="user-sebas-who-is">
+          <span class="text-wrapper-6">&nbsp;&nbsp; user/{{username}}<br /><br /><br /></span>
+          <span class="text-wrapper-7">&nbsp;&nbsp;&nbsp;&nbsp;{{conversation}}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

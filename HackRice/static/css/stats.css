@@ -1,0 +1,166 @@
+.food {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.food .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
+.food .logo {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 40px;
+  left: 51px;
+}
+
+.food .icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.food .aeon {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 500;
+  color: var(--primary);
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+}
+
+.food .header-and-subheader {
+  position: absolute;
+  width: 1059px;
+  height: 40px;
+  top: 55px;
+  left: 444px;
+}
+
+.food .header {
+  display: flex;
+  width: 1059px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  background-color: transparent;
+}
+
+.food .div-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.food .elements {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.food .stats {
+  position: absolute;
+  width: 413px;
+  height: 40px;
+  top: 106px;
+  left: 534px;
+}
+
+.food .here-is-your-stats {
+  position: absolute;
+  width: 411px;
+  top: 0;
+  left: 0;
+  font-family: "Outfit", Helvetica;
+  font-weight: 800;
+  color: var(--secondary);
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.food .divider {
+  position: absolute;
+  width: 760px;
+  height: 1px;
+  top: 692px;
+  left: 338px;
+  object-fit: cover;
+}
+
+.food .AI-recommendations {
+  position: absolute;
+  width: 302px;
+  top: 707px;
+  left: 26px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 34.5px;
+  white-space: nowrap;
+}
+
+.food .text-wrapper {
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 23px;
+  letter-spacing: 0;
+  line-height: 34.5px;
+}
+
+.food .span {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.food .group {
+  position: absolute;
+  width: 177px;
+  height: 82px;
+  top: 85px;
+  left: 28px;
+}
+
+.food .overlap-group {
+  position: relative;
+  width: 175px;
+  height: 82px;
+}
+
+.food .circle-carret-left {
+  position: absolute;
+  width: 88px;
+  height: 82px;
+  top: 0;
+  left: 0;
+}
+
+.food .text-wrapper-2 {
+  position: absolute;
+  top: 30px;
+  height: 82px;
+  left: 80px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/login.css')}}" />
+{% endblock %}
+
+
+{% block body %}
+<div class="log-in">
+    <div class="div">
+        <div class="log-in-here">Log In Here&nbsp;&nbsp;👇</div>
+        <form action="/login" method="POST">
+            <label for="username" class="text-wrapper">Username: </label>
+            <input name="username" id="username" class="rectangle">
+            <label for="password" class="text-wrapper-2">Password: </label>
+            <input name="password" id="password" class="img">
+            <input type="submit" value="post" class="log-in-button">
+        </form>
+        <button onclick="location.href='/signup'" type="button" class="text-wrapper-3">Signup</button>
+        <div class="logo">
+            <img class="icon" src="./static/images/icon.svg" />
+            <div class="aeon">Greenapp</div>
+        </div>
+        <img class="woman-planting-tree" src="./static/images/woman-planting-tree-3588376-3048396-1.png" />
+    </div>
+</div>
+{% endblock %}

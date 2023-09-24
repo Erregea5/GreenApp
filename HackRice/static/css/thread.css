@@ -1,0 +1,246 @@
+.food {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.food .div {
+  background-color: #ffffff;
+  overflow: hidden; 
+  width: 1440px;
+  height: 900px;
+  position: relative;
+}
+
+.food .logo {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 40px;
+  left: 51px;
+}
+
+.food .icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.food .aeon {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 500;
+  color: var(--primary);
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+}
+
+.food .header-and-subheader {
+  position: absolute;
+  width: 1059px;
+  height: 40px;
+  top: 55px;
+  left: 444px;
+}
+
+.food .header {
+  display: flex;
+  width: 1059px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  background-color: transparent;
+}
+
+.food .div-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.food .elements {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.food .overlap-group {
+  position: absolute;
+  width: 175px;
+  height: 82px;
+  top: 85px;
+  left: 28px;
+}
+
+.food .circle-carret-left {
+  position: absolute;
+  width: 88px;
+  height: 82px;
+  top: 0;
+  left: 0;
+}
+
+.food .text-wrapper {
+  position: absolute;
+  top: 29px;
+  left: 80px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 18.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food .log-in-button {
+  display: flex;
+  width: 118px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+  gap: 6.67px;
+  padding: 6.67px;
+  position: absolute;
+  top: 789px;
+  left: 1130px;
+  background-color: #3671ff;
+  border-radius: 2px;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.food .text-wrapper-2 {
+  position: relative;
+  width: 79.38px;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 16.2px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 800px;
+  left: 1000px;
+}
+
+.food .input {
+  position: absolute;
+  width: 958px;
+  height: 36px;
+  top: 794px;
+  left: 142px;
+  background-color: #efefef;
+  border-radius: 4px;
+}
+
+.food .post {
+  top: 621px;
+  font-size: 14px;
+  position: absolute;
+  width: 958px;
+  left: 142px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  letter-spacing: 0;
+  line-height: 27.3px;
+  padding: 50px;
+}
+
+.food .span {
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 27.3px;
+}
+
+.food .text-wrapper-3 {
+  font-size: 25px;
+}
+
+.food .p {
+  top: 717px;
+  font-size: 14px;
+  position: absolute;
+  width: 958px;
+  left: 142px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  letter-spacing: 0;
+  line-height: 27.3px;
+}
+
+.food .post-2 {
+  top: 669px;
+  font-size: 25px;
+  position: absolute;
+  width: 958px;
+  left: 142px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: var(--primary);
+  letter-spacing: 0;
+  line-height: 27.3px;
+}
+
+.food .text-wrapper-4 {
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 27.3px;
+}
+
+.food .text-wrapper-5 {
+  font-size: 14px;
+}
+
+.food .overlap {
+  position: absolute;
+  width: 1106px;
+  height: 376px;
+  top: 181px;
+  left: 142px;
+}
+
+.food .rectangle {
+  position: absolute;
+  width: 1106px;
+  height: 374px;
+  top: 2px;
+  left: 0;
+}
+
+.food .user-sebas-who-is {
+  position: absolute;
+  width: 1106px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.food .text-wrapper-6 {
+  font-weight: 300;
+}
+
+.food .text-wrapper-7 {
+  font-weight: 700;
+  font-size: 28px;
+}
