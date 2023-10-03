@@ -36,3 +36,4 @@ Some ideas:
 - Track more data (type of food consumed, clothing worn)
 - Integrating locality (local farm, composting events, community leader board, etc.)
 - Create a more robust web-page that is more intuitive and interactive with the user.
+- Create a mobile app for a more seamless UX.
